@@ -1,0 +1,78 @@
+.ac__ideaDashBoard {
+    height: 100vh;
+    display: flex;
+}
+.ac__sideBar {
+    position: fixed;
+    height: 100vh;
+    width: 375px;
+    box-shadow: 2px 2px 5px lightgray;
+    background-color: ghostwhite;
+    text-align: center;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: lightgray;
+    border-radius: 5px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #888; 
+  }
+.ac__mainContent {
+    width: calc(100% - 375px);
+    margin-left: 375px;
+    padding: 10px;
+    /* background-color: red; */
+}
+.ac__addNewBtnSection {
+    padding: 20px;
+}
+.ac__queryBoxSection {
+    padding: 20px;
+    height: 100%;
+    overflow-y: auto;
+}
+.ac__queryBox {
+    width: 100%;
+    margin-bottom: 10px;
+    text-align: left;
+    padding: 5px 10px;
+    background-color: #ffffff;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px lightgray;
+    transition: 0.2s;
+}
+.ac__queryBox:hover {
+    transform: translate(0,-5px);
+}
+.queryTitle {
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: black;
+    margin-bottom: 0;
+}
+.queryDescription {
+    font-size: 14px;
+    font-weight: 400;
+    color: gray;
+    margin-top: 0;
+}
+.ac__mainContent {
+    position: fixed;
+    overflow-y: auto;
+    height: 90vh;
+}
